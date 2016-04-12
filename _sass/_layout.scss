@@ -2,11 +2,10 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $background-color;
-    border-bottom: 1px solid $background-color;
+    border-top: 5px solid $brand-color;
+    border-bottom: 1px solid $brand-color;
     min-height: 56px;
-    background: $brand-color;
-    color: $background-color;
+    background: $background-color;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -95,7 +94,6 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    background: $brand-color;
 }
 
 .footer-heading {
@@ -111,7 +109,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color-light;
+    color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
