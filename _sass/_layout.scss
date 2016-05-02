@@ -45,7 +45,7 @@ p {
   font-weight: 100;
 }
 
-a {
+a:not(.site-title) {
   color: $link;
   text-decoration: none;
   position: relative;
